@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>sat'StorE</title>
+</head>
+<body>
+    <!-- PROMOTION -->
+    <div class="bg-indigo-600 px-4 py-3 text-white">
+        <p class="text-center text-sm font-medium">
+          PROMO HINGGA 60%
+          <a href="#" class="inline-block underline">BERLAKU HARI INI SAJA HAHA!</a>
+        </p>
+      </div>
+    <!-- END PROMOTION -->
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <div class="text-center sm:text-left">
+              <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">110 StorE</h1>
+      
+              <p class="mt-1.5 text-sm text-gray-500">Belanja murah dan praktis ! new blog post! 🎉</p>
+            </div>
+      
+            <div class="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
+              <button
+                class="inline-flex items-center justify-center gap-1.5 rounded-lg border border-gray-200 px-5 py-3 text-gray-500 transition hover:bg-gray-50 hover:text-gray-700 focus:outline-none focus:ring"
+                type="button"
+              >
+                <span class="text-sm font-medium"> Cara Belanja </span>
+              </button>
+      
+              <button
+                class="block rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                type="button"
+              >
+                Chat Admin
+              </button>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!-- END NAVBAR  -->
+
+    <!-- CALL TO ACTION -->
+    <section class="bg-gray-50">
+    <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+      <div class="mx-auto max-w-lg text-center">
+        <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+          110 Loading StorE
+        </h2>
+  
+        <p class="hidden text-gray-500 sm:mt-4 sm:block">
+            Selamat datang di situs web kami yang sedang dalam tahap pengembangan! Di sini, kami tengah bekerja keras untuk menghadirkan sebuah platform yang inovatif, menarik, dan informatif bagi Anda.
+        </p>
+      </div>
+  
+      <div class="mx-auto mt-8 max-w-xl">
+        <form action="#" class="sm:flex sm:gap-4">
+          <div class="sm:flex-1">
+  
+            <input
+              type="text"
+              placeholder="Cari Apaan...."
+              class="w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-indigo-400"
+            />
+          </div>
+  
+          <button
+            type="submit"
+            class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-indigo-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+          >
+            <span class="text-sm font-medium"> Cari barang </span>
+  
+            <svg
+              class="size-5 rtl:rotate-180"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    </section>
+    <!-- END CALL TO ACTION -->
+
+    <!-- PRODUCT LIST -->
+     <div class="container grid grid-cols-3 gap-4 max-w-xl mx-auto py-8">
+        <a href="https://wa.me/6282327868081?text=110 StorE saya mau lihar lihat produk T-shirts " class="group block">
+            <img
+              src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VCUyMHNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+              class="aspect-square w-full rounded object-cover"
+            />
+          
+            <div class="mt-3">
+              <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                T-shirts
+              </h3>
+          
+              <p class="mt-1 text-sm text-gray-700">Rp. 100.000 </p>
+            </div>
+        </a>
+        <a href="https://wa.me/6282327868081?text=110 StorE saya mau lihar lihat produk Plain Hoodie " class="group block">
+            <img
+              src="https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvb2RpZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+              class="aspect-square w-full rounded object-cover"
+            />
+          
+            <div class="mt-3">
+              <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                Plain Hoodie
+              </h3>
+          
+              <p class="mt-1 text-sm text-gray-700">Rp. 200.000 </p>
+            </div>
+        </a>
+        <a href="https://wa.me/6282327868081?text=110 StorE saya mau lihar lihat produk Long pants Jeans " class="group block">
+            <img
+              src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amVhbnN8ZW58MHx8MHx8fDA%3D"
+              alt=""
+              class="aspect-square w-full rounded object-cover"
+            />
+          
+            <div class="mt-3">
+              <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                Long pants Jeans
+              </h3>
+          
+              <p class="mt-1 text-sm text-gray-700">Rp. 150.000 </p>
+            </div>
+        </a>
+        <a href="https://wa.me/6282327868081?text=110 StorE saya mau lihar lihat produk Topi Casual " class="group block">
+            <img
+              src="https://media.istockphoto.com/id/1743980888/photo/brown-hat-with-blue-flowers.webp?s=170667a&w=0&k=20&c=eFF--5IFBvoKi0cypoWinaN3lKm0kEMGUoKAgYIfr9s="
+              alt=""
+              class="aspect-square w-full rounded object-cover"
+            />
+          
+            <div class="mt-3">
+              <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                Topi Casual
+              </h3>
+          
+              <p class="mt-1 text-sm text-gray-700">Rp. 50.000 </p>
+            </div>
+        </a>
+        <a href="https://wa.me/6282327868081?text=110 StorE saya mau lihar lihat produk Ikat pinggang " class="group block">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+              class="aspect-square w-full rounded object-cover"
+            />
+          
+            <div class="mt-3">
+              <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                Ikat pinggang
+              </h3>
+          
+              <p class="mt-1 text-sm text-gray-700">Rp. 60.000 </p>
+            </div>
+        </a>
+        <a href="https://wa.me/6282327868081?text=110 StorE kapan kapan yaaa ◪_◪ " class="group block">
+            <img
+              src="https://ekspresionline.com/wp-content/uploads/2014/04/Emoticon-smiley.jpg"
+              alt=""
+              class="aspect-square w-full rounded object-cover"
+            />
+          
+            <div class="mt-3">
+              <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                Cuman Modul ini ya guys
+              </h3>
+          
+              <p class="mt-1 text-sm text-gray-700"> 16.574.467.316,00 $ </p>
+            </div>
+        </a>
+     </div>
+    <!-- END PRODUCT LIST -->
+
+    <!-- FOOTER-->
+   <footer class="bg-white">
+    <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-md">
+        <strong class="block text-center text-xl font-bold text-gray-900 sm:text-3xl">
+            Help us to improve this website by sending a rating 👊
+        </strong>
+  
+        <form class="mt-6">
+          <div class="relative max-w-lg">
+            <label class="sr-only" for="email"> Email </label>
+  
+            <input
+              class="w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium"
+              id="email"
+              type="email"
+              placeholder="Udel@gmail.com"
+            />
+  
+            <button
+              class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
+            >
+            Send
+            </button>
+          </div>
+        </form>
+      </div>
+  
+      <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+        <div class="mx-auto max-w-sm lg:max-w-none">
+          <p class="mt-4 text-center text-gray-500 lg:text-left lg:text-lg">
+            Ikan sepat di dalam kolam,<br>
+            Airnya jernih sejuk terasa.<br>
+            Senang berjumpa walau tak lama,<br>
+            Sampai jumpa di waktu berbeda.
+          </p>
+  
+          <div class="mt-6 flex justify-center gap-4 lg:justify-start">
+            <a
+              class="text-gray-700 transition hover:text-gray-700/75"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="sr-only"> Facebook </span>
+  
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+  
+            <a
+              class="text-gray-700 transition hover:text-gray-700/75"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="sr-only"> Instagram </span>
+  
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+  
+            <a
+              class="text-gray-700 transition hover:text-gray-700/75"
+              href="https://www.instagram.com/daffafarros110/"
+              target=""_blank" class="instagram-link"
+              rel="noreferrer"
+            >
+              <span class="sr-only"> Twitter </span>
+  
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                />
+              </svg>
+            </a>
+  
+            <a
+              class="text-gray-700 transition hover:text-gray-700/75"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="sr-only"> GitHub </span>
+  
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+  
+            <a
+              class="text-gray-700 transition hover:text-gray-700/75"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="sr-only"> Dribbble </span>
+  
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
+          <div>
+            <strong class="font-medium text-gray-900"> Services </strong>
+  
+            <ul class="mt-6 space-y-1">
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Marketing </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                  Graphic Design
+                </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                  App Development
+                </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#">
+                  Web Development
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+          <div>
+            <strong class="font-medium text-gray-900"> About </strong>
+  
+            <ul class="mt-6 space-y-1">
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> About </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Careers </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> History </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Our Team </a>
+              </li>
+            </ul>
+          </div>
+  
+          <div>
+            <strong class="font-medium text-gray-900"> Support </strong>
+  
+            <ul class="mt-6 space-y-1">
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> FAQs </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Contact </a>
+              </li>
+  
+              <li>
+                <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Semuanya masih belum bisa digunakan sepenuhnya 🙏🙏 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="mt-16 border-t border-gray-100 pt-8">
+        <p class="text-center text-xs/relaxed text-gray-500">
+          © Udels Ent 2024. All rights reserved.
+  
+          <br />
+  
+          Created with
+          <a href="#" class="text-gray-700 underline transition hover:text-gray-700/75">Ati</a>
+          lan
+          <a href="#" class="text-gray-700 underline transition hover:text-gray-700/75"
+            >Laravel bored</a
+          >.
+        </p>
+      </div>
+    </div>
+  </footer>
+    <!-- END FOOTER-->
+</body>
+</html>
